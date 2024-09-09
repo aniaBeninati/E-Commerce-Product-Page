@@ -1,0 +1,132 @@
+.header {
+  background-color: var(--white);
+  padding: 1rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nikeLogo {
+  width: 40px;
+  margin-right: 10px; 
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 2rem; 
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navLinks li {
+  cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.profileIcon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-image: url('./src/assets/images/profile.png'); 
+  background-size: cover; 
+  background-position: center; 
+}
+
+.separator {
+  border: 0;
+  height: 1px;
+  background: var(--grayish-blue);
+}
+
+.main {
+  padding: 2rem;
+  background-image: url('C:\Users\benin\Desktop\esercitazioni-Ema\11-07-2024\src\assets\images\virgil-abloh-icons-nike-reinterpretacion-sneakers-.jpg'); /* Update this path */
+  background-size: cover;
+  background-position: center;
+}
+
+.productSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  background-color: rgba(255, 255, 255, 0.9); 
+  padding: 10rem;
+  border-radius: 10px;
+  gap: 1rem; 
+  margin-left: 2rem; 
+  margin-right: 2rem; 
+}
+
+.productDetails {
+  max-width: 500px;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.discount {
+  color: var(--orange);
+}
+
+.originalPrice {
+  text-decoration: line-through;
+  color: var(--grayish-blue);
+}
+
+.counterContainer {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.footer {
+  background-color: var(--very-dark-blue);
+  color: var(--white);
+  padding: 2rem 1rem;
+}
+
+.footerColumns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerColumns .column {
+  flex: 1;
+}
+
+.footerColumns ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footerBottom {
+  text-align: center;
+  margin-top: 2rem;
+}
